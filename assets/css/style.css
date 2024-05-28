@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+/* menu parte 1 */
+
+.container-menu{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+
+
+.container-menu h2{
+    color: #1DA266FF;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+        
+}
+
+
+
+.container-menu h4{
+    color: rgb(226, 231, 229);
+    font-size: 26px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+        
+}
+
+.container-menudois {
+    display: flex;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.container-menudois div {
+   margin-right: 2cm;
+   margin-top: 2cm;
+}
+
+.container-icons{
+
+    padding: 30px 100px;
+    color: #fff;
+    margin-right: 100px;
+    font-size: 60pt;
+    background-image:linear-gradient(45deg,#aef7ba,#0a0a0a);
+    box-shadow: 0px 0px 10px 0px   rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+.container-icons p{
+
+ 
+    font-size: 10pt;
+    color: #0a0a0a;
+    width: 260px;
+
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+/* navbar */
+
+.nav-item {
+margin-left: 2cm;}
+
+
+.nav-item a{
+    color: rgb(47, 112, 22);
+    font-size: 13pt;
+ 
+
+}
+
+
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image:linear-gradient(45deg,#aef7ba,#ffffff);
+
+
+}
+.navbar-toggler:hover {
+    background-color: #aef7ba;
+    border: none;
+
+}
+
+
+/* soteio */
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h5{
+    color: #1DA266FF;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+label {
+    display: block;
+margin-top: 1cm;}
+
+input {
+    margin-top: 1cm;
+    padding: 5px;
+    width: 100px;
+    font-size: 16px;
+    border: 1px solid  #1DA266FF;
+    border-radius: 3px;
+}
+
+#acaoum {
+    margin-top: 1cm;
+
+    padding: 15px 100px;
+    color: #fff;
+    background-color: #1DA266FF;
+    font-size: 18pt;
+}
+#resultado {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 70px;
+    color: #1DA266FF;
+}
+
+
+.container img{
+    position: relative;
+}
+
+
+#resultadodois{
+    padding: 0;
+font-size: 16pt;
+color: rgb(0, 0, 0);
+border: 1px solid #1DA266FF;
+margin-left: 350px;
+margin-right: 350px;
+
+}
+
+/* fotos */
+
+aside{
+    background-image:linear-gradient(45deg,#aef7ba,#ffffff);
+    height: 50vh;
+    margin-top: 6cm;
+    
+
+}
+
+aside h3{
+
+    padding: 30px;
+    color: rgb(47, 112, 22);
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.content-foto{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    gap: 5px;
+    margin-left: 30%;
+
+  
+}
+
+.content-foto img{
+    margin-top: 10%;
+   width: 10%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+   border: 2px solid white;
+   transition: all ease-out 1s;
+}
+
+.content-foto img:hover{
+    width: 100%;
+   
+ }
+
+
+
+
+/* texto */
+
+main{
+	box-shadow: 0px 0px 10px 0px   rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+
+
+.texto{
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.texto p{
+    margin-top: 50px;
+
+}
+
+.texto h2{
+
+    color: #1DA266FF;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.textodois
+{   
+    display: flex;
+    padding: 50px;
+    margin-left: 300px;
+    margin-right: 200px;  
+    margin-top: 10px;
+ 
+}
+
+.textodois div{
+    margin-right: 20px;   
+}
+
+.textodois h3{
+    color: #1DA266FF;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+margin-bottom: 20px;}
+
+
+.textodois i{
+    padding: 20px;
+    color: #fff;
+    margin-right: 100px;
+    font-size: 60pt;
+    background-image:linear-gradient(45deg,#aef7ba,#0a0a0a);
+    box-shadow: 0px 0px 10px 0px   rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+
+    
+}
+
+/* footer */
+.fw-bold{
+    color: #1DA266FF;
+
+
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+  
+
+
+
+
+@media only screen and (max-width: 700px) {
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+
+    .navbar-brand img{
+        width: 300px;
+    }
+
+    .nav-item {
+        margin-left: 0;}
+     
+    /* soteio */
+
+
+    
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+    .container-img img{
+        width: 300px;
+    }
+
+    #container-texto{
+        width: 200px;
+       }
+
+
+       #resultadodois{
+        padding: 0px;
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    }
+    
+       /* fotos */
+
+.content-foto{
+ 
+margin-left: 10%;
+  
+}
+
+.content-foto img{
+    margin-top: 1%;
+ 
+}
+
+
+aside{
+height: 30vh;
+
+}
+  
+/* texto */
+
+.texto{
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+
+.textodois{
+    flex-direction: column;
+    margin-left: 2px;
+    margin-right: 2px;   
+}
+
+.textodois div{
+    margin-right: 12px;  
+    margin-top: 50px; 
+}
+
+
+.textodois i{
+    margin-right: 5px;
+  
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* menu parte 1 */
+
+
+
+.container-menu h2{
+    color: #1DA266FF;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+        
+}
+
+
+
+.container-menu h4{
+    color: rgb(226, 231, 229);
+    font-size: 26px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+        
+}
+
+.container-menudois {
+    margin-left: 0px;
+    margin-right: 50px;
+    flex-direction: column;
+}
+
+
+
+.container-icons{
+    width: 35vh;
+    margin-right: 50px;
+
+
+
+}
+
+.container-icons p{
+
+ 
+    width: 90px;
+
+}
+
+
+
+
+
+
+    }
+
+
+ 
+    @media only screen and (max-width: 1300px) {
+        .nav-item a {
+            font-size: 8px;
+
+        
+        }
+
+       
+
+        
+        
+        }
+
+
+       
+
+    @media only screen and (max-width: 1500px) {
+        .nav-item a {
+            font-size: 15px;
+
+        
+        }
+
+        
+        aside{
+            background-image:linear-gradient(45deg,#aef7ba,#ffffff);
+            height: 70vh;
+            margin-top: 20px;
+        
+        }
+        
+
+
+        .navbar-brand img{
+            width: 260px;
+        }
+
+
+         
+
+    }
+
+
+         
+      
+    
